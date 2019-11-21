@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points;
+namespace Drupal\tm_points;
 
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityListBuilder;

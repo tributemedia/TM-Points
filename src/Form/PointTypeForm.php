@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Form;
+namespace Drupal\tm_points\Form;
 
 use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Form\FormStateInterface;
@@ -8,7 +8,7 @@ use Drupal\Core\Form\FormStateInterface;
 /**
  * Class PointTypeForm.
  *
- * @package Drupal\points\Form
+ * @package Drupal\tm_points\Form
  */
 class PointTypeForm extends EntityForm {
 
@@ -32,7 +32,7 @@ class PointTypeForm extends EntityForm {
       '#type' => 'machine_name',
       '#default_value' => $point_type->id(),
       '#machine_name' => [
-        'exists' => '\Drupal\points\Entity\PointType::load',
+        'exists' => '\Drupal\tm_points\Entity\PointType::load',
       ],
       '#disabled' => !$point_type->isNew(),
     ];

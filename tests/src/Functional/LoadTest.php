@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\Tests\points\Functional;
+namespace Drupal\Tests\tm_points\Functional;
 
 use Drupal\Core\Url;
 use Drupal\Tests\BrowserTestBase;

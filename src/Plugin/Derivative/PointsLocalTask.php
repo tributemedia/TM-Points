@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Plugin\Derivative;
+namespace Drupal\tm_points\Plugin\Derivative;
 
 use Drupal\Component\Plugin\Derivative\DeriverBase;
 use Drupal\Core\Plugin\Discovery\ContainerDeriverInterface;

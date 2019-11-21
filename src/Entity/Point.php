@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Entity;
+namespace Drupal\tm_points\Entity;
 
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
@@ -19,17 +19,17 @@ use Drupal\Core\Entity\EntityTypeInterface;
  *   bundle_label = @Translation("Point type"),
  *   handlers = {
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
- *     "list_builder" = "Drupal\points\PointListBuilder",
- *     "views_data" = "Drupal\points\Entity\PointViewsData",
+ *     "list_builder" = "Drupal\tm_points\PointListBuilder",
+ *     "views_data" = "Drupal\tm_points\Entity\PointViewsData",
  *
  *     "form" = {
- *       "default" = "Drupal\points\Form\PointForm",
- *       "add" = "Drupal\points\Form\PointForm",
- *       "edit" = "Drupal\points\Form\PointForm",
- *       "delete" = "Drupal\points\Form\PointDeleteForm",
+ *       "default" = "Drupal\tm_points\Form\PointForm",
+ *       "add" = "Drupal\tm_points\Form\PointForm",
+ *       "edit" = "Drupal\tm_points\Form\PointForm",
+ *       "delete" = "Drupal\tm_points\Form\PointDeleteForm",
  *     },
- *     "inline_form" = "Drupal\points\Form\PointInlineForm",
- *     "access" = "Drupal\points\PointAccessControlHandler",
+ *     "inline_form" = "Drupal\tm_points\Form\PointInlineForm",
+ *     "access" = "Drupal\tm_points\PointAccessControlHandler",
  *     "route_provider" = {
  *       "default" = "Drupal\Core\Entity\Routing\AdminHtmlRouteProvider",
  *     },
@@ -42,12 +42,12 @@ use Drupal\Core\Entity\EntityTypeInterface;
  *     "uuid" = "uuid",
  *   },
  *   links = {
- *     "canonical" = "/admin/structure/points/{point}",
- *     "add-page" = "/admin/structure/points/add",
- *     "add-form" = "/admin/structure/points/add/{point_type}",
- *     "edit-form" = "/admin/structure/points/{point}/edit",
- *     "delete-form" = "/admin/structure/points/{point}/delete",
- *     "collection" = "/admin/structure/points/overview",
+ *     "canonical" = "/admin/structure/tm_points/{point}",
+ *     "add-page" = "/admin/structure/tm_points/add",
+ *     "add-form" = "/admin/structure/tm_points/add/{point_type}",
+ *     "edit-form" = "/admin/structure/tm_points/{point}/edit",
+ *     "delete-form" = "/admin/structure/tm_points/{point}/delete",
+ *     "collection" = "/admin/structure/tm_points/overview",
  *   },
  *   bundle_entity_type = "point_type",
  *   field_ui_base_route = "entity.point_type.edit_form",

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Routing;
+namespace Drupal\tm_points\Routing;
 
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Symfony\Component\Routing\Route;
@@ -26,7 +26,7 @@ class PointsMovementRoutes {
           "/$entity_type_id/{". $entity_type_id . "}/".$field_name,
           // Route defaults:
           [
-            '_controller' => '\Drupal\points\Controller\EntityPointsMovementController::page',
+            '_controller' => '\Drupal\tm_points\Controller\EntityPointsMovementController::page',
             '_title' => $field_name
           ],
           // Route requirements:

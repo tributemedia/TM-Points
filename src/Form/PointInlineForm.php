@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Form;
+namespace Drupal\tm_points\Form;
 
 use Drupal\inline_entity_form\Form\EntityInlineForm;
 use Drupal\Core\Form\FormStateInterface;
@@ -15,7 +15,7 @@ class PointInlineForm extends EntityInlineForm {
    */
   public function entityForm(array $entity_form, FormStateInterface $form_state) {
     $entity_form = parent::entityForm($entity_form, $form_state);
-    /** @var \Drupal\points\Entity\Point $entity */
+    /** @var \Drupal\tm_points\Entity\Point $entity */
     $entity = $entity_form['#entity'];
     $user_inputs = $form_state->getUserInput();
     $points_inputs = NULL;

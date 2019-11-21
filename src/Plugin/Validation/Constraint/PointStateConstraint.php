@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Plugin\Validation\Constraint;
+namespace Drupal\tm_points\Plugin\Validation\Constraint;
 
 use Symfony\Component\Validator\Constraint;
 

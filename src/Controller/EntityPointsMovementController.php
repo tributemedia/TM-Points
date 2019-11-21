@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Controller;
+namespace Drupal\tm_points\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Entity\EntityTypeManagerInterface;

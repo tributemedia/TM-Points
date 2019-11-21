@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Form;
+namespace Drupal\tm_points\Form;
 
 use Drupal\Core\Entity\ContentEntityDeleteForm;
 

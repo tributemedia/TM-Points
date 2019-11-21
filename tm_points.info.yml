@@ -1,14 +1,10 @@
-name: Points
+name: TM Points
 type: module
 description: Define Point Entity Type and its associated functionalities.
 # core: 8.x
-package: Points
+package: TM Points
 dependencies:
   - drupal:field
   - inline_entity_form
-
-# Information added by Drupal.org packaging script on 2018-03-21
-version: '8.x-1.0-beta1'
+version: '8.x-1.0-dev'
 core: '8.x'
-project: 'points'
-datestamp: 1521609190

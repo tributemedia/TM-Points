@@ -1,5 +1,5 @@
 <?php
 
-namespace Drupal\points\Entity;
+namespace Drupal\tm_points\Entity;
 
 interface PointMovementInterface {}

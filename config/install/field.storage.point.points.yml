@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - points
+    - tm_points
 id: point.points
 field_name: points
 entity_type: point

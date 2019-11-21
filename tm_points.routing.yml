@@ -25,4 +25,4 @@ entity.points.collection:
     _permission: 'access point overview'
 
 route_callbacks:
-  - '\Drupal\points\Routing\PointsMovementRoutes::routes'
+  - '\Drupal\tm_points\Routing\PointsMovementRoutes::routes'

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - points
+    - tm_points
     - user
 id: point_movement
 label: 'Point movement'

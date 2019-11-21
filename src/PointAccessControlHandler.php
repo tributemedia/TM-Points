@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points;
+namespace Drupal\tm_points;
 
 use Drupal\Core\Entity\EntityAccessControlHandler;
 use Drupal\Core\Entity\EntityInterface;
@@ -10,7 +10,7 @@ use Drupal\Core\Access\AccessResult;
 /**
  * Access controller for the Point entity.
  *
- * @see \Drupal\points\Entity\Point.
+ * @see \Drupal\tm_points\Entity\Point.
  */
 class PointAccessControlHandler extends EntityAccessControlHandler {
 
@@ -18,7 +18,7 @@ class PointAccessControlHandler extends EntityAccessControlHandler {
    * {@inheritdoc}
    */
   protected function checkAccess(EntityInterface $entity, $operation, AccountInterface $account) {
-    /** @var \Drupal\points\Entity\PointInterface $entity */
+    /** @var \Drupal\tm_points\Entity\PointInterface $entity */
     switch ($operation) {
       case 'view':
         return AccessResult::allowedIfHasPermission($account, 'view point entities');

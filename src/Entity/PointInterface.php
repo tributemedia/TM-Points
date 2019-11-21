@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Entity;
+namespace Drupal\tm_points\Entity;
 
 use Drupal\Core\Entity\ContentEntityInterface;
 use Drupal\Core\Entity\EntityChangedInterface;
@@ -30,7 +30,7 @@ interface PointInterface extends  ContentEntityInterface, EntityChangedInterface
    * @param int $timestamp
    *   The Point creation timestamp.
    *
-   * @return \Drupal\points\Entity\PointInterface
+   * @return \Drupal\tm_points\Entity\PointInterface
    *   The called Point entity.
    */
   public function setCreatedTime($timestamp);
@@ -42,7 +42,7 @@ interface PointInterface extends  ContentEntityInterface, EntityChangedInterface
 
   /**
    * @param double $points
-   * @return \Drupal\points\Entity\PointInterface
+   * @return \Drupal\tm_points\Entity\PointInterface
    */
   public function setPoints($points);
 
@@ -53,7 +53,7 @@ interface PointInterface extends  ContentEntityInterface, EntityChangedInterface
 
   /**
    * @param string $log
-   * @return \Drupal\points\Entity\PointInterface
+   * @return \Drupal\tm_points\Entity\PointInterface
    */
   public function setLog($log);
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Entity;
+namespace Drupal\tm_points\Entity;
 
 use Drupal\Core\Config\Entity\ConfigEntityBundleBase;
 
@@ -12,11 +12,11 @@ use Drupal\Core\Config\Entity\ConfigEntityBundleBase;
  *   label = @Translation("Point type"),
  *   handlers = {
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
- *     "list_builder" = "Drupal\points\PointTypeListBuilder",
+ *     "list_builder" = "Drupal\tm_points\PointTypeListBuilder",
  *     "form" = {
- *       "add" = "Drupal\points\Form\PointTypeForm",
- *       "edit" = "Drupal\points\Form\PointTypeForm",
- *       "delete" = "Drupal\points\Form\PointTypeDeleteForm"
+ *       "add" = "Drupal\tm_points\Form\PointTypeForm",
+ *       "edit" = "Drupal\tm_points\Form\PointTypeForm",
+ *       "delete" = "Drupal\tm_points\Form\PointTypeDeleteForm"
  *     },
  *     "route_provider" = {
  *       "default" = "Drupal\Core\Entity\Routing\DefaultHtmlRouteProvider",

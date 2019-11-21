@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Form;
+namespace Drupal\tm_points\Form;
 
 use Drupal\Core\Entity\ContentEntityForm;
 use Drupal\Core\Form\FormStateInterface;
@@ -16,7 +16,7 @@ class PointForm extends ContentEntityForm {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    /* @var $entity \Drupal\points\Entity\Point */
+    /* @var $entity \Drupal\tm_points\Entity\Point */
     $form = parent::buildForm($form, $form_state);
     $entity = $this->entity;
     $user_inputs = $form_state->getUserInput();

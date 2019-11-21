@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Entity;
+namespace Drupal\tm_points\Entity;
 
 use Drupal\Core\Entity\ContentEntityBase;
 use Drupal\Core\Entity\EntityChangedTrait;
@@ -14,8 +14,8 @@ use Drupal\Core\Field\BaseFieldDefinition;
  *   id = "point_movement",
  *   label = @Translation("Point movement"),
  *   handlers = {
- *     "views_data" = "Drupal\points\PointMovementViewsData",
- *     "list_builder" = "Drupal\points\PointMovementListBuilder",
+ *     "views_data" = "Drupal\tm_points\PointMovementViewsData",
+ *     "list_builder" = "Drupal\tm_points\PointMovementListBuilder",
  *   },
  *   admin_permission = "administer point entities",
  *   fieldable = TRUE,

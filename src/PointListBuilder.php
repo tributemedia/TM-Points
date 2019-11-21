@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points;
+namespace Drupal\tm_points;
 
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityListBuilder;
@@ -29,7 +29,7 @@ class PointListBuilder extends EntityListBuilder {
    * {@inheritdoc}
    */
   public function buildRow(EntityInterface $entity) {
-    /* @var $entity \Drupal\points\Entity\Point */
+    /* @var $entity \Drupal\tm_points\Entity\Point */
     $row['id'] = $entity->id();
     $row['points'] = $entity->getPoints();
     return $row + parent::buildRow($entity);

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\points\Form;
+namespace Drupal\tm_points\Form;
 
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
@@ -8,7 +8,7 @@ use Drupal\Core\Form\FormStateInterface;
 /**
  * Class PointSettingsForm.
  *
- * @package Drupal\points\Form
+ * @package Drupal\tm_points\Form
  *
  * @ingroup points
  */
